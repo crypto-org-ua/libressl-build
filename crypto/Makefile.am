@@ -505,6 +505,10 @@ libcrypto_la_SOURCES += dso/dso_lib.c
 libcrypto_la_SOURCES += dso/dso_null.c
 libcrypto_la_SOURCES += dso/dso_openssl.c
 
+# dstu
+libcrypto_la_SOURCES += dstu/dstu_params.c
+noinst_HEADERS += dstu/dstu.h
+
 # ec
 libcrypto_la_SOURCES += ec/ec2_mult.c
 libcrypto_la_SOURCES += ec/ec2_oct.c
@@ -589,6 +593,7 @@ libcrypto_la_SOURCES += evp/e_chacha.c
 libcrypto_la_SOURCES += evp/e_chacha20poly1305.c
 libcrypto_la_SOURCES += evp/e_des.c
 libcrypto_la_SOURCES += evp/e_des3.c
+libcrypto_la_SOURCES += evp/e_dstu.c
 libcrypto_la_SOURCES += evp/e_gost2814789.c
 libcrypto_la_SOURCES += evp/e_idea.c
 libcrypto_la_SOURCES += evp/e_null.c

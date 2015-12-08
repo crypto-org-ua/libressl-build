@@ -306,6 +306,7 @@ set(
 	des/set_key.c
 	des/str2key.c
 	des/xcbc_enc.c
+	dstu/dstu_params.c
 	dh/dh_ameth.c
 	dh/dh_asn1.c
 	dh/dh_check.c
@@ -402,6 +403,7 @@ set(
 	evp/e_chacha20poly1305.c
 	evp/e_des.c
 	evp/e_des3.c
+	evp/e_dstu.c
 	evp/e_gost2814789.c
 	evp/e_idea.c
 	evp/e_null.c
