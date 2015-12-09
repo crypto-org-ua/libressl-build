@@ -422,6 +422,7 @@ set(
 	evp/evp_pkey.c
 	evp/m_dss.c
 	evp/m_dss1.c
+	evp/m_dstu.c
 	evp/m_ecdsa.c
 	evp/m_gost2814789.c
 	evp/m_gostr341194.c

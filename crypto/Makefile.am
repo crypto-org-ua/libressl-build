@@ -612,6 +612,7 @@ libcrypto_la_SOURCES += evp/evp_pbe.c
 libcrypto_la_SOURCES += evp/evp_pkey.c
 libcrypto_la_SOURCES += evp/m_dss.c
 libcrypto_la_SOURCES += evp/m_dss1.c
+libcrypto_la_SOURCES += evp/m_dstu.c
 libcrypto_la_SOURCES += evp/m_ecdsa.c
 libcrypto_la_SOURCES += evp/m_gost2814789.c
 libcrypto_la_SOURCES += evp/m_gostr341194.c
