@@ -138,6 +138,11 @@ TESTS += dsatest
 check_PROGRAMS += dsatest
 dsatest_SOURCES = dsatest.c
 
+# dstutest
+TESTS += dstutest
+check_PROGRAMS += dstutest
+dstutest_SOURCES = dstutest.c
+
 # ecdhtest
 TESTS += ecdhtest
 check_PROGRAMS += ecdhtest
