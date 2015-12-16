@@ -507,7 +507,18 @@ libcrypto_la_SOURCES += dso/dso_openssl.c
 
 # dstu
 libcrypto_la_SOURCES += dstu/dstu_params.c
+libcrypto_la_SOURCES += dstu/dstu_err.c
+libcrypto_la_SOURCES += dstu/dstu_sign.c
+libcrypto_la_SOURCES += dstu/dstu_asn1.c
+libcrypto_la_SOURCES += dstu/dstu_compress.c
+libcrypto_la_SOURCES += dstu/dstu_key.c
+libcrypto_la_SOURCES += dstu/dstu_pmeth.c
+libcrypto_la_SOURCES += dstu/dstu_ameth.c
 noinst_HEADERS += dstu/dstu.h
+noinst_HEADERS += dstu/dstu_asn1.h
+noinst_HEADERS += dstu/dstu_compress.h
+noinst_HEADERS += dstu/dstu_key.h
+noinst_HEADERS += dstu/dstu_params.h
 
 # ec
 libcrypto_la_SOURCES += ec/ec2_mult.c

@@ -307,6 +307,13 @@ set(
 	des/str2key.c
 	des/xcbc_enc.c
 	dstu/dstu_params.c
+	dstu/dstu_err.c
+	dstu/dstu_sign.c
+	dstu/dstu_asn1.c
+	dstu/dstu_compress.c
+	dstu/dstu_key.c
+	dstu/dstu_pmeth.c
+	dstu/dstu_ameth.c
 	dh/dh_ameth.c
 	dh/dh_asn1.c
 	dh/dh_check.c
